@@ -424,7 +424,7 @@
                             <div class="clearfix"></div>
                             <div class="col-lg-12 text-center">
                                 <div id="success"></div>
-                                <div class="g-recaptcha" data-sitekey="6LcULh8UAAAAAAzSYxMu89rgo9sbZYvqGp7FtDQq"></div>
+                               <div class="g-recaptcha" data-sitekey="6LesDSAUAAAAAIMaIlLoZUqr8tVmToyrqJqLDcI-"></div>
                                 <button type="submit" class="btn btn-xl">Отправить</button></div>
                             </div>
                     </form>
@@ -445,8 +445,11 @@
                     </ul>
                 </div>
                 <div class="col-md-4">
-                    <ul class="list-inline social-buttons">
-                        <li><a href="https://twitter.com/"><i class="fa fa-twitter"></i></a>
+                    <!-- <ul class="list-inline social-buttons"> -->
+                    <script src="//yastatic.net/es5-shims/0.0.2/es5-shims.min.js"></script>
+<script src="//yastatic.net/share2/share.js"></script>
+<div class="ya-share2" data-services="vkontakte,facebook,gplus,twitter,linkedin"></div>
+                        <!-- <li><a href="https://twitter.com/"><i class="fa fa-twitter"></i></a>
                         </li>
                         <li><a href="https://www.facebook.com/profile.php?id=100016644793948"><i class="fa fa-facebook iconPosFa"></i></a>
                         </li>
@@ -454,8 +457,8 @@
                         </li>
                         <li><a href="https://myaccount.google.com/"><i class="fa fa-google-plus" aria-hidden="true"></i></a>                        
                         <li><a href="https://www.pinterest.com/"><i class="fa fa-pinterest" aria-hidden="true"></i></a>
-                        </li>
-                    </ul>
+                        </li> -->
+                   <!--  </ul> -->
                 </div>
                  <div class="col-md-4">
                     <span class="copyright">done by Alua Sadyrbekova 2017</span>
@@ -478,7 +481,7 @@
                         <div class="col-lg-8 col-lg-offset-2">
                             <div class="modal-body">
                                 <!-- Project Details Go Here -->
-                                <h2>Картина МАслом</h2>
+                                <h1>Картина МАслом</h1>
                                 <p class="item-intro text-muted"></p>
                                 <img class="img-responsive img-centered" src="<?php echo base_url('assets/img/portfolio/6.jpg')?>" alt="Картина МАслом">
                                 <p>Увидел — и запало в душу, и через кисть проявилось на холст. Это живопись. И то же самое — любовь.
@@ -660,3 +663,119 @@
 </script>
 
 <script src='https://www.google.com/recaptcha/api.js'></script> 
+<script> 
+(function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){ 
+(i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o), 
+m=s.getElementsByTagName(o)[0];a.async=1;a.src=g;m.parentNode.insertBefore(a,m) 
+})(window,document,'script','https://www.google-analytics.com/analytics.js','ga'); 
+
+ga('create', 'UA-97878313-1', 'auto'); 
+ga('send', 'pageview'); 
+
+</script>
+<!-- ZERO.kz -->
+<span id="_zero_69017">
+<noscript>
+<a href="http://zero.kz/?s=69017" target="_blank">
+<img src="http://c.zero.kz/z.png?u=69017" width="88" height="31" alt="ZERO.kz" />
+</a>
+</noscript>
+</span>
+
+<script type="text/javascript"><!--
+var _zero_kz_ = _zero_kz_ || [];
+_zero_kz_.push(["id", 69017]);
+_zero_kz_.push(["type", 1]);
+
+(function () {
+    var a = document.getElementsByTagName("script")[0],
+    s = document.createElement("script");
+    s.type = "text/javascript";
+    s.async = true;
+    s.src = (document.location.protocol == "https:" ? "https:" : "http:")
+    + "//c.zero.kz/z.js";
+    a.parentNode.insertBefore(s, a);
+})(); //-->
+</script>
+<!-- End ZERO.kz -->
+
+<!-- Yandex.Metrika informer -->
+<a href="https://metrika.yandex.kz/stat/?id=44526676&amp;from=informer"
+target="_blank" rel="nofollow"><img src="https://informer.yandex.ru/informer/44526676/3_1_FFFFFFFF_EFEFEFFF_0_pageviews"
+style="width:88px; height:31px; border:0;" alt="Яндекс.Метрика" title="Яндекс.Метрика: данные за сегодня (просмотры, визиты и уникальные посетители)" class="ym-advanced-informer" data-cid="44526676" data-lang="ru" /></a>
+<!-- /Yandex.Metrika informer -->
+
+<!-- Yandex.Metrika counter -->
+<script type="text/javascript">
+    (function (d, w, c) {
+        (w[c] = w[c] || []).push(function() {
+            try {
+                w.yaCounter44526676 = new Ya.Metrika({
+                    id:44526676,
+                    clickmap:true,
+                    trackLinks:true,
+                    accurateTrackBounce:true
+                });
+            } catch(e) { }
+        });
+
+        var n = d.getElementsByTagName("script")[0],
+            s = d.createElement("script"),
+            f = function () { n.parentNode.insertBefore(s, n); };
+        s.type = "text/javascript";
+        s.async = true;
+        s.src = "https://mc.yandex.ru/metrika/watch.js";
+
+        if (w.opera == "[object Opera]") {
+            d.addEventListener("DOMContentLoaded", f, false);
+        } else { f(); }
+    })(document, window, "yandex_metrika_callbacks");
+</script>
+<noscript><div><img src="https://mc.yandex.ru/watch/44526676" style="position:absolute; left:-9999px;" alt="" /></div></noscript>
+<!-- /Yandex.Metrika counter -->
+<!--LiveInternet counter--><script type="text/javascript">
+document.write("<a href='//www.liveinternet.ru/click' "+
+"target=_blank><img src='//counter.yadro.ru/hit?t52.6;r"+
+escape(document.referrer)+((typeof(screen)=="undefined")?"":
+";s"+screen.width+"*"+screen.height+"*"+(screen.colorDepth?
+screen.colorDepth:screen.pixelDepth))+";u"+escape(document.URL)+
+";"+Math.random()+
+"' alt='' title='LiveInternet: показано число просмотров и"+
+" посетителей за 24 часа' "+
+"border='0' width='88' height='31'><\/a>")
+</script><!--/LiveInternet-->
+<!-- Top100 (Kraken) Widget -->
+<span id="top100_widget"></span>
+<!-- END Top100 (Kraken) Widget -->
+
+<!-- Top100 (Kraken) Counter -->
+<script>
+    (function (w, d, c) {
+    (w[c] = w[c] || []).push(function() {
+        var options = {
+            project: 4478875,
+            element: 'top100_widget'
+        };
+        try {
+            w.top100Counter = new top100(options);
+        } catch(e) { }
+    });
+    var n = d.getElementsByTagName("script")[0],
+    s = d.createElement("script"),
+    f = function () { n.parentNode.insertBefore(s, n); };
+    s.type = "text/javascript";
+    s.async = true;
+    s.src =
+    (d.location.protocol == "https:" ? "https:" : "http:") +
+    "//st.top100.ru/top100/top100.js";
+
+    if (w.opera == "[object Opera]") {
+    d.addEventListener("DOMContentLoaded", f, false);
+} else { f(); }
+})(window, document, "_top100q");
+</script>
+<noscript>
+  <img src="//counter.rambler.ru/top100.cnt?pid=4478875" alt="Топ-100" />
+</noscript>
+<!-- END Top100 (Kraken) Counter -->
+

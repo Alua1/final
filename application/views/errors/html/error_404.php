@@ -48,6 +48,7 @@ code {
 	margin: 10px;
 	border: 1px solid #D0D0D0;
 	box-shadow: 0 0 8px #D0D0D0;
+	background-image:  url('../img/404.png');
 }
 
 p {
@@ -56,9 +57,11 @@ p {
 </style>
 </head>
 <body>
+
 	<div id="container">
-		<h1><?php echo $heading; ?></h1>
+		 <h1><?php echo $heading; ?></h1>
 		<?php echo $message; ?>
+		<img src="<?php echo base_url('assets/img/404.jpg')?>" class="img-responsive" alt="картина маслом">
 	</div>
 </body>
 </html>

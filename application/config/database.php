@@ -75,10 +75,10 @@ $query_builder = TRUE;
 
 $db['default'] = array(
         'dsn'   => '',
-        'hostname' => 'localhost',
-        'username' => 'root',
-        'password' => '',
-        'database' => 'aluadb',
+        'hostname' => 'localhost:3306',
+        'username' => 'aljoykz_alua',
+        'password' => 'Alua123',
+        'database' => 'aljoykz_animastd',
         'dbdriver' => 'mysqli',
         'dbprefix' => '',
         'pconnect' => TRUE,
@@ -95,10 +95,10 @@ $db['default'] = array(
 );
 $db['default']['failover'] = array(
                 array(
-                        'hostname' => 'localhost1',
+                        'hostname' => '',
                         'username' => '',
                         'password' => '',
-                        'database' => '',
+                        'database' => 'aluadb',
                         'dbdriver' => 'mysqli',
                         'dbprefix' => '',
                         'pconnect' => TRUE,

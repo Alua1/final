@@ -1,0 +1,14 @@
+User-agent: Yandex
+Disallow: /admin
+Disallow: /img
+Host: animastd.kz
+
+User-agent: Googlebot
+Disallow: /admin
+Disallow: /img
+
+User-agent: *
+Disallow: /admin
+Disallow: /img 
+
+Sitemap: http://animastd.kz/sitemap.xml
