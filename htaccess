@@ -1,0 +1,22 @@
+AddType text/x-component .htc
+<IfModule mod_rewrite.c>
+    RewriteEngine On
+    RewriteBase /
+
+    #Remove old-style www and redirect on non-www version
+    RewriteCond %{HTTP_HOST} ^www.projectname.kz$ [NC]
+    RewriteRule ^(.*)$ http://animastd.kz/$1 [R=301,L]
+
+    #Redirect from HTTP to HTTPS
+    #RewriteCond %{HTTP:HTTPS} !on [NV]
+    #RewriteRule ^(.*)$ https://buydubai.shop/$1 [R=301,L]
+
+    #Exclude index.php from URL, but insert it on BackEnd
+    RewriteCond %{REQUEST_FILENAME} !-f
+    RewriteCond %{REQUEST_FILENAME} !-d
+    RewriteRule .* index.php/$1 [L]
+</IfModule>
+
+<IfModule !mod_rewrite.c>
+    ErrorDocument 404 /index.php
+</IfModule>

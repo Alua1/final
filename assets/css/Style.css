@@ -1,0 +1,178 @@
+/*header{
+	height: 100px;
+	width: 100%;
+}
+
+header menu{
+	text-align: center;
+	height: 100%;
+	width: 100%;
+	background-color: #1abc9c;
+}
+
+header menu a{
+	line-height: 100px;
+	color: white;
+	font-size: 3em;
+	text-decoration: none;
+	text-transform: uppercase;
+	font-family: Helvetica;
+	margin-right: 20px;
+	transition-property: color;
+	transition-timing-function: ease;
+	transition-duration: 0.5s;
+}
+
+header menu a:last-child{
+	margin-right: 0;
+}
+*/
+body {
+  position: relative;
+}
+ a:hover{
+	border-bottom: 3px solid #c0392b;
+	color:#34495e;
+}
+dt{
+	
+	color: blue;
+}
+table{
+	align-content: center;
+}
+dd{
+	font-family: 'Baloo Bhaina', cursive;
+}
+.mainbody{ 
+margin: auto; 
+margin-left: 50px; 
+margin-right: 50px; 
+margin-top: 45px; 
+}
+.name{
+	font-family: San Francisco;
+	display: inline-block;
+    color: black;
+    text-align: center;
+    padding: 20px;    
+}
+.name:hover{
+	border-bottom: 3px solid #c0392b;
+	color:#34495e;
+}
+
+.text{
+	display: inline-block;
+	width: 70%;
+	margin-right: 30px;
+	float: right;
+	align-content: center;
+	}
+.M1{
+	display: inline-block;
+	margin: 20px;
+	float: left;	
+}
+#M1{
+	display: inline-block;
+	margin: 20px;
+	float: left;	
+}
+.div1{
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    margin-left: 5px;
+    margin-right: 5px;
+}
+.x{
+	
+	padding: 10px;
+	margin-left: 200px ;
+	width: 60%;
+	display: inline-block;
+	float: center;
+	width: 400px;
+}
+.photo{
+	width: 50%;
+	display: inline-block;
+	float: right;
+	margin-top: 20px;
+}
+
+.card {
+    text-align: center;
+    box-shadow: 0 10px 10px 10px rgba(0,0,0,0.2);
+    transition: 0.3s;
+    width: 250px;
+    margin: 20px 20px 10px 20px;
+}
+
+.card:hover {
+    box-shadow: 0 8px 16px 10PX ;
+}
+
+.container {
+    padding: 5px 16px;
+}
+.ft{
+	display: block;
+	text-align: right;
+
+}
+
+#dialog {
+	width: 60%
+	align-content:right;
+}
+.kzp{
+	align-items:  right;
+	color: blue;
+	display: inline-block;
+}
+.kzimg{
+	align-items:  left; 
+	width: 250px; 
+	display: inline-block;
+}
+
+.toggler { 
+	width: 500px; 
+	height: 200px; 
+	position: relative; 
+}
+#button { 
+	padding: .5em 1em; 
+	text-decoration: none; }
+#effect { 
+	position: relative; 
+	width: 100%;
+}
+.newClass { 
+  	width: 240px;  
+  	padding: 1em; 
+  	letter-spacing: 0;
+  	 margin: 0; 
+  	}
+.anotherNewClass { 
+	text-indent: 40px; 
+  	letter-spacing: .2em; 
+  	width: 410px; 
+  	height: 100px; 
+  	padding: 30px; 
+  	margin: 10px; 
+  	font-size: 1.1em; 
+}
+
+.ui-menu { 
+	width: 150px;
+	background-color: yellow;
+}
+#accordian{
+	height: 300px;
+}
+#sortable { list-style-type: none; margin: 0; padding: 0; width: 60%; }
+  #sortable li { margin: 0 3px 3px 3px; padding: 0.4em; padding-left: 1.5em; font-size: 1.4em; height: 18px; }
+  #sortable li span { position: absolute; margin-left: -1.3em; }
