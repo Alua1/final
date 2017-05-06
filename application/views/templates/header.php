@@ -3,14 +3,13 @@
         <meta charset="utf-8">
         <meta http-equiv="X-UA-Compatible" content="IE=edge">
         <meta name=”viewport” content=”width=device-width, initial-scale=1.0”>.
-        <meta name="viewport" content="width=device-width, initial-scale=1">
         <meta name="description" content="Студия A N I M A Мастер-классы по рисованию маслом всего за 2,5 часа! Не верите ? Удостоверьтесь сами!!!">
         <meta name="author" content="Alua Sadyrbekova">
         <meta name="keywords" content="anima,студия,масляная картина, краски, письмо маслом, Мастер-классы,картина маслом,зыкрыть картину, записаться на мастер класс,талант, процесс, цветовая гамма, холст,  краски, палитра, разбавители, мастихин, арт-куратор,профессионалы">
         <meta name="yandex-verification" content="1d1106bd1f9d7eae" />
+        <meta name="google-captcha" content="6LcULh8UAAAAAAzSYxMu89rgo9sbZYvqGp7FtDQq" />        
         <title>Anima студия мастер класс по рисованию</title>
-        <link rel="icon" type="img" href="<?php echo base_url('assets/img/favicon.ico')?>">
-        
+        <link rel="icon" type="img" href="<?php echo base_url('assets/img/favicon.ico')?>">        
         <link href="<?php echo base_url('assets/font-awesome/css/font-awesome.min.css')?>" rel="stylesheet" type="text/css"> 
         <link rel="stylesheet" href="<?php echo base_url('assets/bootstrap/css/bootstrap.min.css')?>"> 
         <link href="https://fonts.googleapis.com/css?family=Montserrat:400,700" rel="stylesheet" type="text/css">

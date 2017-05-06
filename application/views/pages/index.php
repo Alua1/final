@@ -1,4 +1,3 @@
-
 <nav id="mainNav" class="navbar navbar-default navbar-custom navbar-fixed-top">
         <div class="container">
             <!-- Brand and toggle get grouped for better mobile display -->
@@ -297,14 +296,9 @@
                         <img src="<?php echo base_url('assets/img/team/1.jpg')?>" class="img-responsive img-circle" height="400" alt="картина маслом">
                         <h4>Евгений Култышев</h4>
                         <p class="text-muted">HR-manager</p>
-                        <ul class="list-inline social-buttons">
-                            <li><a href="#"><i class="fa fa-twitter"></i></a>
-                            </li>
-                            <li><a href="#"><i class="fa fa-facebook"></i></a>
-                            </li>
-                            <li><a href="#"><i class="fa fa-linkedin"></i></a>
-                            </li>
-                        </ul>
+                        <script src="//yastatic.net/es5-shims/0.0.2/es5-shims.min.js"></script>
+<script src="//yastatic.net/share2/share.js"></script>
+<div class="ya-share2" data-services="facebook,twitter,linkedin"></div>
                     </div>
                 </div>
                 <div class="col-sm-4">
@@ -312,23 +306,9 @@
                         <img src="<?php echo base_url('assets/img/team/2.jpg')?>" class="img-responsive img-circle" height="400" alt="картина маслом">
                         <h4>Тамерлан Каманов</h4>
                         <p class="text-muted">Художник</p>
-                        <ul class="list-inline social-buttons">
-                            <li>
-                                <a href="https://www.instagram.com/p/BPZFF9hh4cV/?taken-by=anima_std">
-                                    <i class="fa fa-twitter"></i>
-                                </a>
-                            </li>
-                            <li>
-                                <a href="https://www.instagram.com/p/BPZFF9hh4cV/?taken-by=anima_std">
-                                    <i class="fa fa-facebook"></i>
-                                </a>
-                            </li>
-                            <li>
-                                <a href="https://www.instagram.com/p/BPZFF9hh4cV/?taken-by=anima_std">
-                                    <i class="fa fa-linkedin"></i>
-                                </a>
-                            </li>
-                        </ul>
+                        <script src="//yastatic.net/es5-shims/0.0.2/es5-shims.min.js"></script>
+<script src="//yastatic.net/share2/share.js"></script>
+<div class="ya-share2" data-services="facebook,twitter,linkedin"></div>
                     </div>
                 </div>
                 <div class="col-sm-4">
@@ -336,14 +316,9 @@
                         <img src="<?php echo base_url('assets/img/team/3.jpg')?>" class="img-responsive img-circle" alt="картина маслом">
                         <h4>Алуа Садырбекова</h4>
                         <p class="text-muted">Web Developer</p>
-                        <ul class="list-inline social-buttons">
-                            <li><a href="#"><i class="fa fa-twitter"></i></a>
-                            </li>
-                            <li><a href="#"><i class="fa fa-facebook"></i></a>
-                            </li>
-                            <li><a href="#"><i class="fa fa-linkedin"></i></a>
-                            </li>
-                        </ul>
+                        <script src="//yastatic.net/es5-shims/0.0.2/es5-shims.min.js"></script>
+<script src="//yastatic.net/share2/share.js"></script>
+<div class="ya-share2" data-services="facebook,twitter,linkedin"></div>
                     </div>
                 </div>
             </div>
@@ -386,7 +361,6 @@
             </div>
         </div>
     </aside>
-
     <!-- Contact Section -->
     <section id="contact">
         <div class="container">
@@ -398,6 +372,7 @@
             </div>
             <div class="row">
                 <div class="col-lg-12">
+                <div id="bodyfull">
                     <form name="sentMessage" id="contactForm" novalidate>
                         <div class="row">
                             <div class="col-md-6">
@@ -424,10 +399,10 @@
                             <div class="clearfix"></div>
                             <div class="col-lg-12 text-center">
                                 <div id="success"></div>
-                               <div class="g-recaptcha" data-sitekey="6LesDSAUAAAAAIMaIlLoZUqr8tVmToyrqJqLDcI-"></div>
+                              <div class="g-recaptcha" data-sitekey="6LcULh8UAAAAAAzSYxMu89rgo9sbZYvqGp7FtDQq"></div>
                                 <button type="submit" class="btn btn-xl">Отправить</button></div>
                             </div>
-                    </form>
+                        </form>                
                 </div>
             </div>
         </div>
